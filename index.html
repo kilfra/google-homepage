@@ -1,8 +1,10 @@
 <!DOCTYPE html> 
+<title>Google Searchpage - made with love by kilfra</title>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-<head></head>
+<head><link rel="shortcut icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2d/Google-favicon-2015.png">
+</head>
 
 <style>
     body {font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #222222; width: 100%; margin: 0;}
@@ -27,7 +29,7 @@
     .apps-icon {padding: 0; margin: -1px 15px 0px 9px;}
     .apps-icon:hover {opacity: 1; background-color: rgba(60,64,67,0.08);  outline: none; border-radius: 50%; padding: 8px 0px 0px 1px; width: 40px; height: 32px; margin: -9px 7px 0px 0px; }
     .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
-    .footer {display: block; position: absolute; bottom: 0px; height: 100px; width: 100%; background-color: #f2f2f2;}
+    .footer {display: block; position: absolute; bottom: 0px; height: 85px; width: 100%; padding-bottom: 10px; background-color: #f2f2f2;}
     .footer a {color: #0000008a;}
     .button-login {background-color: #1a73e8; border: 1px solid #1a73e8; border-radius: 3px; color: white; text-decoration: none; text-align: center; margin-right: 8px; min-width: 113px; vertical-align: middle; -webkit-border-radius: 4px; border-radius: 4px;}
     .button-login:hover {text-decoration: none !important; background-color: #2b7de9}
@@ -38,22 +40,25 @@
     <body>
         <div>
 
-            <div class="navbar">
-
-
+        <div class="navbar">
             <ul>
-                <li><a href="https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header">About Google</a></li>
-                <li><a href="https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=de-DE">Store</a></li>
-                <li style="float: right; "><a href="https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=de-DE" class="button-login">Login</a></li>
+                <li><a href="https://about.google">About Google</a></li>
+                <li><a href="https://store.google.com">Store</a></li>
+                <li style="float: right; "><a href="https://myaccount.google.com" class="button-login">Login</a></li>
                 <li style="float:right"><a href="" title="Google-Apps" aria-label="Google-Apps" aria-expanded="false"><span class="material-icons md-dark apps-icon">apps</span></a></li>
-                <li style="float:right"><a href="">Images</a></li>
-                <li style="float:right"><a href="">Gmail</a></li>
+                <li style="float:right"><a href="https://www.louvre.fr/en">Images</a></li>
+                <li style="float:right"><a href="https://gmail.com">Gmail</a></li>
             </ul>
         </div>
-        <div class="logo">
+
+        <!-- <div class="logo">
             <img style="display: block; height: 92px; margin: auto" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Logo Google">
+        </div> -->
+
+        <div class="logo">
+            <a href="https://www.google.com/doodles/30th-anniversary-of-the-world-wide-web"><img style="display: block; height: 92px; margin: auto" src="https://www.google.com/logos/doodles/2019/30th-anniversary-of-the-world-wide-web-4871946884874240-2xa.gif" title="30th Anniversary of the World Wide Web" alt="30th Anniversary of the World Wide Web"></a>
         </div>
-        
+
         <div class="search">
 
             <div style="display: felx; flex: 1; z-index: 1;">
@@ -61,7 +66,7 @@
             </div>
 
             <div style="flex: 100%; z-index: 2;">
-                <form action="https://www.google.com/">
+                <form action="">
                     <input type="text" placeholder="What dou you want me to search?">
                 </form>
             </div>
@@ -70,22 +75,23 @@
             <span class="material-icons md-dark search-icon">mic</span>
             </div>
 
-        </div>    
+        </div>   
+
         <div class="footer">
             <div style="border-bottom: 1px solid #dadce0">
-            <ul>
-                <li><a class="active" href="https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header">Country</a></li>
+            <ul style="padding: 5px 25px 0px 25px">
+                <li><a class="active" href="https://www.youtube.com/watch?v=aMLfWXL-De4">Tomorrowland</a></li>
             </ul>
         </div>
         <div>
-            <ul>
-                <li><a href="">Lorem</a></li>
-                <li><a href="">Ipsum</a></li>
-                <li><a href="">Dolor sit amet</a></li>
+            <ul style="padding: 10px 25px 0px 25px">
+                <li><a href="https://en.wikipedia.org/wiki/Lorem_ipsum">Lorem</a></li>
+                <li><a href="https://schwaben-ipsum.de/">Ipsum</a></li>
+                <li><a href="https://www.google.com/finance/quote/ABEA:FRA?sa=X&ved=2ahUKEwjHzu2c7KjwAhWF-aQKHfVdCAMQ3ecFMAB6BAgIEBo">Alphabet Inc.</a></li>
                 <li><span class="material-icons md-dark search-icon">emoji_nature</span></li>
-                <li><a href="">We love nature</a></li>
-                <li><a href="">Consectetur</a></li>
-                <li style="float:right"><a href="https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=de-DE">Settings</a></li>
+                <li><a href="https://www.worldwildlife.org/">We love nature</a></li>
+                <li><a href="https://www.ted.com/talks/sergey_brin_larry_page_the_genesis_of_google?language=en">Let's TED talk, Larry!</a></li>
+                <li style="float:right"><a href="https://letmegooglethat.com/?q=How+do+I+google+google+on+google%2C+google%3F">Settings</a></li>
             </ul>
         </div>
     </div>
