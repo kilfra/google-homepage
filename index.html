@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<head></head>
+
+<style>
+    body {font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #222222; width: 100%; margin: 0;}
+
+    input[type="text"] {height: 37px; width: 100%; border: none; background: transparent; color: #696b6e; font-size: 1.1em;}
+    input[type="text"]:focus {height: 37px; border: none; background: transparent; color: #696b6e;}
+    textarea:focus, input:focus{
+    outline: none;
+}
+    ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color none;}
+    li {float: left; border-right: none;}
+    li:last-child {border-right: none;}
+    li a {display: block; color: #222222; text-align: center; padding: 9px 10px; text-decoration: none;}
+    li a:hover:not(.active) {text-decoration: underline;}
+    .active {background-color: transparent;}
+
+    .navbar {height: 60px; max-height: 60px; position: relative; padding: 9px;}
+    .logo {height: 92px; width: auto; position: relative; display: block; margin: auto; padding: 5% 0% 0% 0%;}
+    .search {height: 44px; max-width: 584px; position: relative; display: flex;  margin: auto; border: 1px solid #dfe1e5; border-radius: 24px; margin-top: 33px; background-color: white; z-index: 5;}
+    .search:hover {box-shadow: 0 1px 6px rgb(32 33 36 / 28%); border-color: rgba(223,225,229,0);}
+    .search-icon {padding: 10px 10px 0px 11px;}
+    .apps-icon {padding: 0; margin: -1px 15px 0px 9px;}
+    .apps-icon:hover {opacity: 1; background-color: rgba(60,64,67,0.08);  outline: none; border-radius: 50%; padding: 8px 0px 0px 1px; width: 40px; height: 32px; margin: -9px 7px 0px 0px; }
+    .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+    .footer {display: block; position: absolute; bottom: 0px; height: 100px; width: 100%; background-color: #f2f2f2;}
+    .footer a {color: #0000008a;}
+    .button-login {background-color: #1a73e8; border: 1px solid #1a73e8; border-radius: 3px; color: white; text-decoration: none; text-align: center; margin-right: 8px; min-width: 113px; vertical-align: middle; -webkit-border-radius: 4px; border-radius: 4px; -webkit-box-sizing: border-box;}
+    .button-login:hover {text-decoration: none !important; background-color: #2b7de9}
+
+</style>
+
+<html>
+    <body>
+        <div>
+
+            <div class="navbar">
+
+
+            <ul>
+                <li><a class="active" href="https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header">About Google</a></li>
+                <li><a href="https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=de-DE">Store</a></li>
+                <li style="float: right; "><a href="https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=de-DE" class="button-login">Login</a></li>
+                <li style="float:right"><a href="" title="Google-Apps" aria-label="Google-Apps" aria-expanded="false"><span class="material-icons md-dark apps-icon">apps</span></a></li>
+                <li style="float:right"><a href="">Images</a></li>
+                <li style="float:right"><a href="">Gmail</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img style="display: block; height: 92px; margin: auto" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Logo Google">
+        </div>
+        
+        <div class="search">
+
+            <div style="display: felx; flex: 1; z-index: 1;">
+            <span class="material-icons md-dark search-icon">search</span>
+            </div>
+
+            <div style="flex: 100%; z-index: 2;">
+                <form action="https://www.google.com/">
+                    <input type="text" placeholder="What dou you want me to search?">
+                </form>
+            </div>
+
+            <div style="display: flex; z-index: 3;">
+            <span class="material-icons md-dark search-icon">mic</span>
+            </div>
+
+        </div>    
+        <div class="footer">
+            <div style="border-bottom: 1px solid #dadce0">
+            <ul>
+                <li><a class="active" href="https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header">Country</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Ipsum</a></li>
+                <li><a href="">Dolor sit amet</a></li>
+                <li><span class="material-icons md-dark search-icon">emoji_nature</span></li>
+                <li><a href="">We love nature</a></li>
+                <li><a href="">Consectetur</a></li>
+                <li style="float:right"><a href="https://store.google.com/DE?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=de-DE">Settings</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
